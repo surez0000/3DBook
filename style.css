@@ -4,18 +4,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
     background: #f0f0f0;
     margin: 0;
     overflow: hidden;
+    height: 20vh;
 }
 
 .book {
     perspective: 1000px;
 }
 #myDiv{
-    width: 170px;
-    height: 260px;
+    width: 370px;
+    height: 530px;
     font-size: 12px;
     opacity: 0;
     top: -100%;
@@ -23,8 +23,8 @@ body {
     left: -100%;
 }
 .page {
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 550px;
     background: white;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     position: absolute;
@@ -72,7 +72,7 @@ body {
     
 }
 pre {
-    width: 170px;
+    width: 370px;
     word-wrap: break-word;
     white-space: normal;
     text-align: justify;
